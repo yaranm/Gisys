@@ -1,0 +1,24 @@
+﻿@model GisysAPI.ViewModels.EmployeeViewModel
+<h3>@ViewBag.StatusCode</h3>
+@if (Model.Name != null)
+{
+<div class="card mx-auto box-style" style="width: 18rem;">
+    @if (Model.Image == "")
+    {
+        <img src="~/image/no-image.png" class="card-img-top" alt="No image">
+    }
+    else
+    {
+        <img src="@Model.Image" class="card-img-top" alt="No image">
+    }
+
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item"><strong>Salary:</strong> @Model.Salary</li>
+        <li class="list-group-item"><strong>Age:</strong> @Model.Age</li>
+    </ul>
+    <a class="btn btn-secondary btn-sm" asp-area="" asp-controller="Home" asp-action="Index">Back</a>
+</div>
+}

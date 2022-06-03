@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zlsdfne3+f8LBfSbNX34jdtUcgS1hlVXvTx5qRDrYCEdTv8qHPpi0NVtEAvfG8mLw6u5ICnIVBEKZzVQl97PFA==",
+  "success": true,
+  "projectFilePath": "C:\\GisysArbetsprov\\GisysAPI\\GisysAPI\\GisysAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yaran\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\yaran\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
